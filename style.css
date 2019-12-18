@@ -1,0 +1,101 @@
+/* Colors and fonts*/
+body {background-color: #faeee7;
+	color: #095228;
+	font-family: time new roman;
+	font-weight:200;}
+
+h1{color: #396362;}
+
+p{ color: #4b8e8d;}
+h2{color: #396362;}
+h3{color: #f6c89f;}
+
+a {text-decoration: none;
+	color: #515585;}
+a:hover{color: #b2dffb;
+
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 40px;
+}
+body {
+	font-size: 20px;
+}
+
+
+
+     }
+.container {
+	width: 800px
+	margin: 50px
+}
+
+@media (max-width: 500px); {
+	.container { 
+	width: 600px }
+}
+@media (max-width: 500px); {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 5px;
+	margin: 20px;
+	text-align: center;
+
+
+  background-color: #ffe7d1;
+  background-image: radial-gradient(circle, #faeee7 15%, transparent 10%), radial-gradient(circle, #faeee7 15%, transparent 10%);
+  background-size: 100px 100px;
+  background-position: 0 0, 50px 50px;
+ }
+.img-circle {
+	border-radius: 50%;
+	width: 180px;
+}
+
+.btn-blue {
+	background-color: #6B72E1
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue: hover {
+	background-color: blue;
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li { 
+	display: inline;
+	padding: 10px;
+ }
+
+.list-inline i {
+	font-size: 50px;
+	color: #095228;
+}
+
+.list-inline i:hover {
+	color:#faeee7
+}
+ 
+ #introduction p {
+ 	margin-bottom: 40px;
+ }
